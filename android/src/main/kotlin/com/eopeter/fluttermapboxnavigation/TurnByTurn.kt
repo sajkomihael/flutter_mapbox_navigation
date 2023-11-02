@@ -149,7 +149,7 @@ open class TurnByTurn(
                     this@TurnByTurn.binding.navigationView.api.startRoutePreview(routes)
                     this@TurnByTurn.binding.navigationView.customizeViewBinders {
                         this.infoPanelEndNavigationButtonBinder =
-                            CustomInfoPanelEndNavButtonBinder(activity)
+                            CustomInfoPanelEndNavButtonBinder(this.activity)
                     }
                 }
 
